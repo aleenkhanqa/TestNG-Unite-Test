@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Projects/TestNG-Unite-Test/TestNG-Test">
+        <classes>
+            <class name="com.testng.test.HelloTestJunit">
+                <methods>
+                    <include name="helloTest"/>
+                </methods>
+            </class>
+            <class name="com.testng.test.HelloTestTestNG">
+                <methods>
+                    <include name="helloTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
